@@ -13,4 +13,5 @@ const removedupicate= function(nums){
 } 
 
 const result= removedupicate([0,0,1,1,1,2,2,3,3,4])
+
 console.log(result)
