@@ -21,3 +21,6 @@ const result= sq(8)
 console.log(result)
 
 
+
+
+
