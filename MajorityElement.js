@@ -10,10 +10,12 @@ var majorityElement = function(nums) {
     
     for(var i = 0; i < nums.length; i++){
         obj[nums[i]] = obj[nums[i]] + 1 || 1;
+
+
         if(obj[nums[i]] > nums.length / 2)  return nums[i];
     }
-    
+
 };
 
-const result= majorityElement([4,4,4,4,4,4,1,2,3,5,6,7,8])
+const result= majorityElement([2,2,1,1,1,2,2])
 console.log(result)
