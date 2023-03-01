@@ -1,4 +1,4 @@
-// 5 more to do
+// 4 more to do
 
 
 // Input: prices = [7,1,5,3,6,4]
